@@ -108,7 +108,7 @@ add original repository as `upstream` to your remote repository
 
     $ git remote add upstream git@github.com:foo/original.git
 
-check branch (if remotes/upstream does not appear, try `git fetch upstream` and retry)
+check branch (if remotes/upstream does not appear, try `git remote -v`)
 
     $ git branch -a
     * master
